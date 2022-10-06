@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn{
+ 
+  width: 150px;
+  height: 100px;
+  margin-left: 10px;
+}
