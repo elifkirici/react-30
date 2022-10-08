@@ -1,0 +1,26 @@
+#tabButtons {
+  display: flex;
+  justify-content: flex-end;
+  width: 89.5%;
+  margin-top: 50px;
+}
+#tabButtons button {
+  width: 200px;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px solid darkblue;
+  background: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+#tabButtons button:hover {
+  font-size: 22px;
+  cursor: pointer;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-weight: bold;
+}

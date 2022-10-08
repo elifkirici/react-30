@@ -1,0 +1,12 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  font-size: 13px;
+}

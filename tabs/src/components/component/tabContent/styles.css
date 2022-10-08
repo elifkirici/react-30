@@ -1,0 +1,23 @@
+#tabContent {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Courier New", Courier, monospace;
+
+}
+
+.Content {
+  display: flex;
+  width: 80%;
+}
+
+.textContent {
+  margin-top: 20px;
+  height: 200px;
+
+  margin-left: 80px;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
