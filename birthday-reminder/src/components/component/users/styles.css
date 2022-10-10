@@ -1,0 +1,57 @@
+.AppUser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.header {
+  color: rgb(0, 7, 41);
+  text-align: center;
+  font-size: 18px;
+}
+.listUser {
+  background: rgb(233, 228, 228);
+  width: 400px;
+  height: 580px;
+  margin-top: 50px;
+}
+
+ul li {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-fluid {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.listText {
+  display: flex;
+  flex-direction: column;
+}
+.user-name {
+  padding: 0px 0px 5px 10px;
+}
+.user-age {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px 0px 5px 10px;
+  color: rgb(68, 68, 75);
+  margin-top: -20px;
+}
+.clearUser {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: rgb(216, 156, 156);
+  border: 0px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+}
