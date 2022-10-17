@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Mitr", sans-serif;
+}
+.main {
+  width: 80%;
+  display: flex;
+}
+.action-container {
+  width: 50%;
+  height: 500px;
+  border: 1px solid rgba(61, 63, 62, 0.5);
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action-container h1 {
+  text-align: center;
+  color: rgb(46, 48, 46);
+  font-family: "Shadows Into Light", cursive;
+  font-size: 50px;
+}
+.action-container input {
+  width: 90%;
+  height: 60px;
+  font-size: 35px;
+  border: 1px solid rgb(31, 30, 30);
+}
+.action-container input:focus {
+  outline: none;
+}
+.list {
+  width: 50%;
+  height: auto;
+}
+
+.list ul li {
+  background: rgb(238, 236, 236);
+  height: 50px;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+  box-shadow: rgba(79, 102, 119, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.list ul li button {
+  border: none;
+  cursor: pointer;
+}
+.list ul li button i {
+  font-size: 30px;
+  color: #111111;
+}
+.remove {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.buttons button {
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid rgb(53, 53, 53);
+}
+
+.text-overline {
+  text-decoration: line-through;
+  color: #555756;
+  transition: color 0.5s ease-out, border-bottom-color 0.2s ease-out;
+}
+.title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  color: rgb(29, 29, 29);
+  font-family: "Shadows Into Light", cursive;
+  font-size: 80px;
+  display: block;
+}
+.header-none {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .action-container {
+    width: 100%;
+  }
+  .list{
+    width: 100%;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+  
+  }
+}
