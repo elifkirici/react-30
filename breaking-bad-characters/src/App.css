@@ -79,7 +79,7 @@
     rgba(152, 144, 61, 1) 47%,
     rgb(56, 10, 4) 96%
   );
-  height: 100vh;
+  background-repeat: repeat;
 }
 .Character h1 {
   color: rgb(158, 155, 155);

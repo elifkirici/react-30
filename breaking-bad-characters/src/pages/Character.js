@@ -18,10 +18,10 @@ function Character() {
       {Character.map((chrctr, index) => (
         <div key={index}>
           <div className="row Detail">
-            <div className="col-5 imgCharacter">
+            <div className="col-12 col-sm-12 col-md-5 imgCharacter">
               <img src={chrctr.img} alt={chrctr.name} />
             </div>
-            <div className="col-6 detailCharacter">
+            <div className="col-12 col-sm-12 col-md-6 detailCharacter">
               <div className="row">
                 <div className="article">
                   <h3 className="top">Name:</h3>
@@ -52,7 +52,7 @@ function Character() {
           </div>
         </div>
       ))}
-      <div className="nextButton">
+      <div className="nextButton mt-3">
         <button className="btn btn-dark">
           <Link to={`/Character/${parseInt(index) + 1}`}>Next Character</Link>
         </button>
