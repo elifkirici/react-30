@@ -1,0 +1,67 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 80%;
+  border-radius: 40px;
+  padding: 30px;
+  background: rgb(1, 52, 65);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 52, 65, 0.5690651260504201) 0%,
+    rgba(29, 84, 150, 0.7595413165266106) 27%,
+    rgba(0, 20, 194, 0.5550595238095238) 53%,
+    rgba(18, 7, 236, 0.6082808123249299) 96%
+  );
+}
+.Form select {
+  display: block;
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+}
+.Form label{
+  font-size: 20px;
+  color: #f0f8ff;
+}
+.cityShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.cityName {
+  color: #f0f8ff;
+  font-size: 70px;
+  border-bottom: 1px solid white;
+}
+.cityTemp {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.cityTemp img {
+  width: 70%;
+  height: 140px;
+}
+.cityTemp p {
+  color: #f0f8ff;
+font-size: 30px;
+  width: 30%;
+}
+.description {
+  color: #f0f8ff;
+  font-weight: bold;
+}
+.Temp {
+  display: flex;
+  color: #f0f8ff;
+}
