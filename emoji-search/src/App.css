@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.Header label {
+  color: rgb(5, 100, 100);
+  font-size: 40px;
+}
+.Header input {
+  width: 100%;
+  border: 1px solid rgb(160, 159, 159);
+  height: 40px;
+}
+.Header input:focus {
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0.22, 0) 0px 10px 10px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+  margin-top: 30px;
+  background: rgb(255, 255, 255);
+}
+.listElement {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.listElement p {
+  font-size: 25px;
+}
+.copyButton {
+  border: 0px;
+  color: rgb(168, 165, 165);
+  cursor: pointer;
+}
