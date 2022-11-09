@@ -1,0 +1,143 @@
+.body {
+  width: 100%;
+  background: #c6cfcf;
+}
+.App {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.AddNote {
+  width: 25%;
+  height: 100%;
+  background: #fefbd8;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 0 16px;
+  margin-left: 20px;
+  box-shadow: rgba(15, 15, 15, 0.767) 0px 5px 15px;
+}
+input {
+  border-radius: 30px;
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  color: #000;
+  margin-bottom: 20px;
+}
+input:focus {
+  outline: none;
+}
+
+textarea {
+  margin-bottom: 30px;
+  padding-left: 5px;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid rgb(158, 158, 158);
+  color: #000;
+}
+textarea:focus {
+  outline: none;
+}
+
+.colorBtn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.colorBtn button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.colorBtn button:focus {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.colorBtn .pink {
+  background: #eca1a6;
+  margin-left: -10px;
+}
+.colorBtn .yellow {
+  background: #ffcc5c;
+}
+.colorBtn .green {
+  background: #82b74b;
+}
+.colorBtn .blue {
+  background: #a2b9bc;
+}
+
+.List {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Search {
+  width: 95%;
+  height: 20vh;
+  background: #fefbd8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(15, 15, 15, 0.767) 0px 5px 15px;
+}
+.addBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.noteList {
+  display: flex;
+  width: 90%;
+  height: 100vh;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 15rem;
+  height: 15rem;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+/*dark mode*/
+
+.darkSearch {
+  width: 95%;
+  height: 20vh;
+  background: #2e2e2e;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fefbd8;
+}
+.darkAddNote {
+  width: 25%;
+  height: 100%;
+  background: #2e2e2e;
+  color: #fefbd8;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 0 16px;
+  margin-left: 20px;
+}
+.darkBody {
+  width: 100%;
+  background: #000;
+}
